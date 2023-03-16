@@ -87,3 +87,30 @@ fun main() {
         println("Invalid Status")
     }
 }
+
+
+
+Practical 1.1.3
+Aim:- A participant can make 1 submission every 30 seconds. If a contest lasts for X minutes, what is the maximum number of submissions that the participant can make during it?
+Code:-
+
+import java.util.*
+fun main() {
+    var xMinute = Scanner(System.`in`).nextInt()
+    println("Total No of submission are " + xMinute*2)
+}
+
+Practical 1.1.4
+Aim:- Take input from user and print multiplication table upto user input no.
+Code:-
+
+import java.util.*
+fun main() {
+    var no = Scanner(System.`in`).nextInt()
+    for(i in 1..no){
+      for(j in 1..10){
+        println("$i * $j = " + i*j)
+      }
+      println("")
+    }
+}
